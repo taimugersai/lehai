@@ -1,0 +1,67 @@
+{
+  "baseUrl": "http://192.168.1.76:8000",
+  "Index": {
+    "method": "get",
+    "url": "http://192.168.1.76:8000/api/index"
+  },
+  "detail": {
+    "method": "get",
+    "url": "http://192.168.1.76:8000/api/detail"
+  },
+  "search": {
+    "method": "get",
+    "url": "http://192.168.1.76:8000/api/search"
+  },
+  "addTraveler":{
+    "method": "post",
+    "url": "http://192.168.1.76:8000/api/addTraveler"
+  },
+  "getTraveler":{
+    "method": "get",
+    "url": "http://192.168.1.76:8000/api/getTraveler"
+  },
+  "getAllTraveler":{
+    "method": "get",
+    "url": "http://192.168.1.76:8000/api/getAllTraveler"
+  },
+  "deleteTraveler":{
+    "method": "get",
+    "url":"http://192.168.1.76:8000/api/deleteTraveler"
+  },
+  "updateTraveler":{
+    "method": "post",
+    "url": "http://192.168.1.76:8000/api/updateTraveler"
+  },
+  "orders":{
+    "method":"get",
+    "url":"http://192.168.1.76:8000/api/orders"
+  },
+  "tabload":{
+    "method":"get",
+    "url":"http://192.168.1.76:8000/api/tabLoad"
+  },
+  "getProblem":{
+    "method":"get",
+    "url":"http://192.168.1.76:8000/api/problems"
+  },
+  "postProblem":{
+    "method":"post",
+    "url":"http://192.168.1.76:8000/api/problems"
+  },
+  "star":{
+    "method":"get",
+    "url":"http://192.168.1.76:8000/api/star"
+  },
+  "starList":{
+    "method":"get",
+    "url":"http://192.168.1.76:8000/api/starList"
+  },
+  "center":{
+    "method":"get",
+    "url":"http://192.168.1.76:8000/api/center"
+  },
+  "info":{
+    "method":"post",
+    "url":"http://192.168.1.76:8000/api/info"
+  }
+}

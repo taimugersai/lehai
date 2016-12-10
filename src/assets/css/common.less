@@ -1,0 +1,121 @@
+/**
+	base主题色
+	textColor主体内容字体颜色
+	fontSize主体内容字体大小
+	strong突出字体
+	bgColor背景色
+	mainWidth主题内容宽度
+**/
+@base: #f95b1d;
+@activeColor: #f96b2d;
+@strong: #21242a;
+@fontSize: .22rem;
+@lineHeight: .22rem*1.5;
+@fontSmall: @fontSize/1.2;
+@fontBig: @fontSize*1.2;
+@fontLarge: @fontSize*1.5;
+@textColor: #b9b9b9;
+@bgColor: #ebebeb;
+@mainWidth: 5.6rem;
+
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, p, form, input, textarea, button, th, td {
+  margin: 0;
+  padding: 0;
+}
+img, iframe {
+  border: 0 none;
+}
+ol, ul, li {
+  list-style: none outside none;
+}
+button, a, input, textarea{
+	outline: none;
+	border: 0;
+	-webkit-appearance:none;
+}
+a{
+	text-decoration: none;
+	    color: #545454;
+}
+html, body{
+  color: @textColor;
+  font: @fontSize/@lineHeight Microsoft Yahei;
+  background: @bgColor;
+}
+span{
+	font-family: 'Microsoft Yahei';
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 190076 */
+  src: url('//at.alicdn.com/t/font_m0ikzmxb6s35l8fr.eot');
+  src: url('//at.alicdn.com/t/font_m0ikzmxb6s35l8fr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_m0ikzmxb6s35l8fr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_m0ikzmxb6s35l8fr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_m0ikzmxb6s35l8fr.svg#iconfont') format('svg');
+}
+                    
+                    
+.iconfont{
+	font-family: "iconfont";
+}
+.wrap{position: relative;*zoom: 1;width: 100%;}
+//颜色
+.gray{
+  color:#c4c4c4
+}
+.base{
+  color:@base
+}
+.orange{
+  color:@base
+}
+
+.clear:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.text-small{
+	font-size: @fontSmall;
+    line-height: @fontSmall*1.2;
+}
+.text-big{
+	font-size: @fontBig;
+}
+.text-large{
+	font-size: @fontLarge;
+}
+.text-huge{
+	font-size: @fontSize*2;
+}
+.border-bottom{
+	border-bottom: 1px solid #ebebeb;
+}
+.bold{
+	font-weight: bold;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.h12{
+	height: 1.2rem;
+}
+.bg-white{
+	background-color: #fff;
+}
+//返回顶部
+.goToTop{
+	position: fixed;
+	right:0;
+	bottom:1.6rem;
+	width:1.12rem;
+	height:0.98rem;
+	display:none;
+}
+.hide{display:none;}
+.show{
+	display:inline-block;
+}
